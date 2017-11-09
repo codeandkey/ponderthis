@@ -1,5 +1,14 @@
 ## Ponder This November 2017
-### This is my solution to IBM's November challenge.
+
+This is my solution to IBM's November challenge.
+
+### Compilation
+
+To compile the test suite (computes averages for x,y,z to verify the probabilities are 0.5, 0.5, and 3.5 respectively),
+execute `make` in this directory. The programs are quite basic and have no dependencies other than libc, so they should
+compile on most machines.
+
+### Solution expression
 
 It uses a total of 108 characters (not including k=, d=, parentheses etc) and 4 intermediate variables to compute the solution to the problem.
 
